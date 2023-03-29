@@ -34,6 +34,7 @@ public class TicTak {
                 System.out.println("Invalid move. Try again!");
             }
         }
+
         printBoard(board);
     }
 
