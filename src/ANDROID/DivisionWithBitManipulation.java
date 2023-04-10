@@ -15,8 +15,8 @@ import java.util.Scanner;
 public class DivisionWithBitManipulation {
     public int divide(int dividend, int divisor) {
         //to check whether the num is pos or neg.
-        boolean isNeg = (dividend<0 && divisor >0) || (dividend>0 && divisor<0) ? true : false;
-        // coverting divisor and dividend into long to avoid overflow.
+        boolean isNeg = (dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0);
+        // converting divisor and dividend into long to avoid overflow.
         long absD = Math.abs((long) dividend);
         long absd = Math.abs((long) divisor);
         long quot = 0;
