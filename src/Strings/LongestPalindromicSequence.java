@@ -1,4 +1,4 @@
-package Sorting;
+package Strings;
 
 public class LongestPalindromicSequence {
     public int longestPalindromeSubseq(String s) {
